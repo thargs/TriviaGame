@@ -39,7 +39,7 @@ $("body").on("click", ".reset-button", function(event){
 
 function lossTimeOut() {
 	unansweredTally++;
-	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='../assets/images/crash.jpg'>";
+	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/crash.jpg'>";
 	$(".mainArea").html(gameHTML);
 	setTimeout(wait, 3000); 
 }
@@ -53,7 +53,7 @@ function win() {
 
 function loss() {
 	incorrectTally++;
-	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='../assets/images/crash.jpg'>";
+	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/crash.jpg'>";
 	$(".mainArea").html(gameHTML);
 	setTimeout(wait, 3000); 
 }
@@ -132,14 +132,14 @@ var answerArray = [
 	["Reduce weight","More attractive","For a smoother ride","To reduce the size of the wheels"]
 ];
 var imageArray = [
-	"<img class='center-block img-right' src='../assets/images/europe.png'>", 
-	"<img class='center-block img-right' src='../assets/images/frame.png'>", 
-	"<img class='center-block img-right' src='../assets/images/frontWheel.jpg'>", 
-	"<img class='center-block img-right' src='../assets/images/bearing.jpg'>", 
-	"<img class='center-block img-right' src='../assets/images/gearShift.jpg'>", 
-	"<img class='center-block img-right' src='../assets/images/pennyFarthing.png'>", 
-	"<img class='center-block img-right' src='../assets/images/bars.jpg'>", 
-	"<img class='center-block img-right' src='../assets/images/bikeSize.png'>"
+	"<img class='center-block img-right' src='/assets/images/europe.png'>", 
+	"<img class='center-block img-right' src='/assets/images/frame.png'>", 
+	"<img class='center-block img-right' src='/assets/images/frontWheel.jpg'>", 
+	"<img class='center-block img-right' src='/assets/images/bearing.jpg'>", 
+	"<img class='center-block img-right' src='/assets/images/gearShift.jpg'>", 
+	"<img class='center-block img-right' src='/assets/images/pennyFarthing.png'>", 
+	"<img class='center-block img-right' src='/assets/images/bars.jpg'>", 
+	"<img class='center-block img-right' src='/assets/images/bikeSize.png'>"
 ];
 var correctAnswers = [
 	"A. Europe", 
