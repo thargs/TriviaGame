@@ -11,6 +11,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+.start-button {
+  margin-top: 40px;
+  background-color: gray;
+  border-color: rgb(250, 158, 174);
+}
+
+.start-button:hover {
+  background: rgb(250, 158, 174);
+}
 
 .timer-p {
   margin-top: 40px;
@@ -45,6 +54,12 @@
 
 .reset-button {
   margin-top: 40px;
+  background-color: gray;
+  border-color: rgb(250, 158, 174);
+}
+
+.reset-button:hover {
+  background: rgb(250, 158, 174);
 }
 
 .summary-correct {
@@ -56,4 +71,14 @@ body {
   background-image: url("../images/proCycling.jpg");
   background-repeat: no-repeat;
   color: white;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  background-color: black;
+  color: rgb(156, 153, 153);
+  text-align: center;
+  padding-top: 20px;
 }
