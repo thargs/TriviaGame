@@ -132,14 +132,14 @@ var answerArray = [
 	["Reduce weight","More attractive","For a smoother ride","To reduce the size of the wheels"]
 ];
 var imageArray = [
-	"<img class='center-block img-right' src='/assets/images/europe.png'>", 
-	"<img class='center-block img-right' src='/assets/images/frame.png'>", 
-	"<img class='center-block img-right' src='/assets/images/frontWheel.jpg'>", 
-	"<img class='center-block img-right' src='/assets/images/bearing.jpg'>", 
-	"<img class='center-block img-right' src='/assets/images/gearShift.jpg'>", 
-	"<img class='center-block img-right' src='/assets/images/pennyFarthing.png'>", 
-	"<img class='center-block img-right' src='/assets/images/bars.jpg'>", 
-	"<img class='center-block img-right' src='/assets/images/bikeSize.png'>"
+	"<img class='center-block img-right' src='assets/images/europe.png'>", 
+	"<img class='center-block img-right' src='assets/images/frame.png'>", 
+	"<img class='center-block img-right' src='assets/images/frontWheel.jpg'>", 
+	"<img class='center-block img-right' src='assets/images/bearing.jpg'>", 
+	"<img class='center-block img-right' src='assets/images/gearShift.jpg'>", 
+	"<img class='center-block img-right' src='assets/images/pennyFarthing.png'>", 
+	"<img class='center-block img-right' src='assets/images/bars.jpg'>", 
+	"<img class='center-block img-right' src='assets/images/bikeSize.png'>"
 ];
 var correctAnswers = [
 	"A. Europe", 
